@@ -63,11 +63,11 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
 
-def fix_roles
+
   epic_tragedy[:additional_characters][0] = {:name => "Prince Escalus"},
   epic_tragedy[:additional_characters][1] = {:name =>
   "Apothecary"}
-end
+
 
 
 
